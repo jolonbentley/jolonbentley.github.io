@@ -11,6 +11,13 @@ a {
     color: #ffd600;
 }
 
+h1 {
+    font-family: 'Titan One', sans-serif;
+    font-size: 96px;
+    color: #ff8623;
+    text-align: center;
+}
+
 .navbar {
     position: fixed;
     top: 0;
@@ -28,8 +35,8 @@ a {
     justify-content: start;
     align-items: center;
     padding-left: 10%;
+    font-family: 'Titan One', sans-serif;
     font-size: 24px;
-    font-weight: 700;
     color: #ffd600;
 }
 
@@ -44,4 +51,12 @@ a {
     justify-content: end;
     align-items: center;
     padding-right: 10%;
+}
+
+.large-header {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
 }
