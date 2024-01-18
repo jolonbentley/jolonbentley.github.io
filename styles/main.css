@@ -8,7 +8,7 @@ body {
 }
 
 a {
-    color: #ffd600;
+    text-decoration: none;
 }
 
 h1 {
@@ -53,10 +53,21 @@ h1 {
     padding-right: 10%;
 }
 
+.github-icon {
+    color: #ffd600;
+}
+
 .large-header {
     padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
