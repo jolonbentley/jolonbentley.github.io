@@ -6,6 +6,7 @@ body {
     font-family: 'Cabin', sans-serif;
     letter-spacing: 3px;
     width: 100%;
+    height: auto;
 }
 
 a {
@@ -80,7 +81,7 @@ h2 {
 
 .blog-post-containers {
     text-align: center;
-    height: 200px;
+    height: auto;
     width: 40%;
 }
 .blog-link {
@@ -92,15 +93,30 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.blog-sub-text {
+    width: 60%;
 }
 
 .blog-text-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .blog-text {
     width: 60%;
+}
+
+@media (max-width: 992px) {
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
