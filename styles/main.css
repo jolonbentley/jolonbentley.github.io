@@ -113,6 +113,10 @@ h2 {
     width: 60%;
 }
 
+.html-css-list {
+    text-align: start;
+}
+
 @media (max-width: 992px) {
     .blog-container {
         display: flex;
@@ -120,3 +124,4 @@ h2 {
         align-items: center;
     }
 }
+
