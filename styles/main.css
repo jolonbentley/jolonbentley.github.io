@@ -1,127 +1,126 @@
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    background-color: #f3ebd6;
-    font-family: 'Cabin', sans-serif;
-    letter-spacing: 3px;
-    width: 100%;
-    height: auto;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f3ebd6;
+  font-family: 'Cabin', sans-serif;
+  letter-spacing: 3px;
+  width: 100%;
+  height: auto;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 h1 {
-    font-size: 96px;
-    color: #ff8623;
-    text-align: center;
+  font-size: 96px;
+  color: #ff8623;
+  text-align: center;
 }
 
 h2 {
-    font-size: 48px;
-    color: #4671df;
+  font-size: 48px;
+  color: #4671df;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 100%;
-    height: 80px;
-    background-color: #4671df;
-    color: #ffffff;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 80px;
+  background-color: #4671df;
+  color: #ffffff;
 }
 
 .logo {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding-left: 10%;
-    font-family: 'Titan One', sans-serif;
-    font-size: 24px;
-    color: #ffd600;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10%;
+  font-family: 'Titan One', sans-serif;
+  font-size: 24px;
+  color: #ffd600;
 }
 
 .menu-items {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .social-icons {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding-right: 10%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 10%;
 }
 
 .github-icon {
-    color: #ffd600;
+  color: #ffd600;
 }
 
 .large-header {
-    font-family: 'Titan One', sans-serif;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
+  font-family: 'Titan One', sans-serif;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
 }
 
 .blog-container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .blog-post-containers {
-    text-align: center;
-    height: auto;
-    width: 40%;
+  text-align: center;
+  height: auto;
+  width: 40%;
 }
 .blog-link {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .blog-header {
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-align: center;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
 }
 
 .blog-sub-text {
-    width: 60%;
+  width: 60%;
 }
 
 .blog-text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .blog-text {
-    width: 60%;
+  width: 60%;
 }
 
 .html-css-list {
-    text-align: start;
+  text-align: start;
 }
 
 @media (max-width: 992px) {
-    .blog-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .blog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
